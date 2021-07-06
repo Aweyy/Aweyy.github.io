@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>how to build your blog site with hexo</title>
+    <url>/2021/07/06/how-to-build-your-blog-site-with-hexo/</url>
+    <content><![CDATA[<p>由于我想记录自己的成长，所以建立此博客站点，希望能勉励自己。</p>
+<h2 id="软件的安装"><a href="#软件的安装" class="headerlink" title="软件的安装"></a>软件的安装</h2><h3 id="Git-amp-Github"><a href="#Git-amp-Github" class="headerlink" title="Git &amp; Github"></a>Git &amp; Github</h3><p>打开Github,创建新仓库，仓库名为{github名.github.io}，其他不用动，创建完成</p>
+<p>下载最新版本的<a href="https://git-scm.com/downloads">Git</a>，按照指示安装完毕，然后按如下操作进行配置。</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">git config --global user.name &quot;你的github名&quot;</span><br><span class="line">git config --global user.email 对应邮箱</span><br><span class="line">ssh-keygen -t rsa -b 4096 -C 对应邮箱</span><br></pre></td></tr></table></figure>
+<ul>
+<li>最后一步会生成一个id_rsa.pub文件，在C:\Users\user name.ssh文件夹中，用记事本打开，复制其中所有内容；</li>
+<li>Github–settings–SSH and GPG keys–New SSH key–粘贴，名字随意。</li>
+<li>至此，大功告成</li>
+</ul>
+<h3 id="NodeJs"><a href="#NodeJs" class="headerlink" title="NodeJs"></a>NodeJs</h3><ul>
+<li>最新版本的Node.js无法兼容，所以下载12.18.3的<a href="https://nodejs.org/download/release/v12.18.3/node-v12.18.3-x64.msi">NodeJs</a></li>
+<li>一直点下一步，安装完成。</li>
+<li>npm的下载服务器不在国内，所以设置淘宝镜像，在shell中输入以下语句：npm config set registry <a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a></li>
+</ul>
+<h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>在命令行输入以下命令，一键安装</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
+<p>测试代码</p>
+<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init // 在空文件夹中初始化hexo代码</span><br><span class="line">hexo s // 在本地部署hexo服务</span><br></pre></td></tr></table></figure>
+<p>如果成功打开网页，即环境部署完毕，剩余内容希望读者积极探索，本人使用的是7.8.0的Next主题，主题设置参考了该(博客)[<a href="https://lishibo-ios.github.io/2018/03/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%88%E4%BA%8C%EF%BC%89--%20%E4%BD%BF%E7%94%A8next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E5%8D%9A%E5%AE%A2%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF/]">https://lishibo-ios.github.io/2018/03/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%88%E4%BA%8C%EF%BC%89--%20%E4%BD%BF%E7%94%A8next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E5%8D%9A%E5%AE%A2%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF/]</a></p>
+]]></content>
+      <categories>
+        <category>solutions</category>
+      </categories>
+  </entry>
+</search>
