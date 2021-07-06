@@ -15,7 +15,7 @@
 <h3 id="NodeJs"><a href="#NodeJs" class="headerlink" title="NodeJs"></a>NodeJs</h3><ul>
 <li>最新版本的Node.js无法兼容，所以下载12.18.3的<a href="https://nodejs.org/download/release/v12.18.3/node-v12.18.3-x64.msi">NodeJs</a></li>
 <li>一直点下一步，安装完成。</li>
-<li>npm的下载服务器不在国内，所以设置淘宝镜像，在shell中输入以下语句：npm config set registry <a href="http://registry.npm.taobao.org/">http://registry.npm.taobao.org</a></li>
+<li>npm的下载服务器不在国内，所以设置淘宝镜像，在shell中输入以下语句<figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm config set registry http://registry.npm.taobao.org</span><br></pre></td></tr></table></figure></li>
 </ul>
 <h3 id="Hexo"><a href="#Hexo" class="headerlink" title="Hexo"></a>Hexo</h3><p>在命令行输入以下命令，一键安装</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
