@@ -21,7 +21,7 @@
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">npm install hexo-cli -g</span><br></pre></td></tr></table></figure>
 <p>测试代码</p>
 <figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">hexo init // 在空文件夹中初始化hexo代码</span><br><span class="line">hexo s // 在本地部署hexo服务</span><br></pre></td></tr></table></figure>
-<p>如果成功打开网页，即环境部署完毕，剩余内容希望读者积极探索，本人使用的是7.8.0的Next主题，主题设置参考了该(博客)[<a href="https://lishibo-ios.github.io/2018/03/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%88%E4%BA%8C%EF%BC%89--%20%E4%BD%BF%E7%94%A8next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E5%8D%9A%E5%AE%A2%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF/]">https://lishibo-ios.github.io/2018/03/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%88%E4%BA%8C%EF%BC%89--%20%E4%BD%BF%E7%94%A8next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E5%8D%9A%E5%AE%A2%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF/]</a></p>
+<p>如果成功打开网页，即环境部署完毕，剩余内容希望读者积极探索，本人使用的是7.8.0的Next主题，主题设置参考了该<a href="https://lishibo-ios.github.io/2018/03/02/%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%EF%BC%88%E4%BA%8C%EF%BC%89--%20%E4%BD%BF%E7%94%A8next%E4%B8%BB%E9%A2%98%E9%85%8D%E7%BD%AE%E5%8D%9A%E5%AE%A2%E5%9F%BA%E6%9C%AC%E4%BF%A1%E6%81%AF/">博客</a></p>
 ]]></content>
       <categories>
         <category>solutions</category>
